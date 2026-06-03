@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Node / Expo
+node_modules/
+frontend/node_modules/
+.expo/
+frontend/.expo/
+dist/
+web-build/
+
+# Java / Spring Boot / Maven / Gradle
+target/
+backend/target/
+build/
+.gradle/
+
+# IDE
+*.iml
+.idea/
+.vscode/
+
+# Local database / storage artifacts
+*.db
+*.mv.db
+*.trace.db
+minio-data/
+uploads/

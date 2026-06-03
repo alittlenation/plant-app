@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "식집사들",
+    "slug": "sikjipsa",
+    "scheme": "sikjipsa",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "성장 사진과 대표 사진을 등록하기 위해 사진 접근 권한이 필요합니다."
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#f7f5ef"
+      }
+    }
+  }
+}
